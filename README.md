@@ -8,6 +8,26 @@ Devpost: https://devpost.com/software/book-review-cam
 
 ### Built with
 
-- [Expo](https://expo.io/)
+- [Expo](https://expo.dev/)
 - [React Native](https://reactnative.dev/)
 - [Google Cloud Platform](https://cloud.google.com/)
+
+### How to run/develop locally
+
+You must have [Node](https://nodejs.org/) downloaded to run Expo.
+
+Download [Expo](https://expo.dev/):
+```sh
+npm install -g expo-cli
+```
+
+Clone the repo, install dependencies:
+```sh
+git clone https://github.com/n-ulricksen/book-reviews-cam.git
+yarn
+```
+
+Start the development server:
+```sh
+yarn start
+```
