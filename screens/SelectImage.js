@@ -147,6 +147,7 @@ export default function SelectImage({ navigation }) {
         }
       );
       let responseJson = await response.json();
+      console.log(responseJson)
       setGoogleResponse(responseJson);
       setSearchTerms(
         responseJson.responses[0].textAnnotations
