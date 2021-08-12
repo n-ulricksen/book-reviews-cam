@@ -2,6 +2,7 @@
   "expo": {
     "name": "Tab Navigation Template",
     "slug": "BookReviewsMobile",
+    "entryPoint": "./src/App.js",
     "privacy": "public",
     "platforms": [
       "ios",
@@ -10,10 +11,10 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./src/assets/images/icon.png",
     "scheme": "myapp",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./src/assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

@@ -11,8 +11,8 @@ import {
 import * as Permissions from "expo-permissions";
 import * as ImagePicker from "expo-image-picker";
 import getuuid from "../util/getuuid";
-import Environment from "../config/environment";
-import firebase from "../config/firebase";
+import Environment from "../../config/environment";
+import firebase from "../../config/firebase";
 import SearchContext from "../context/SearchContext";
 import theme from "../styles/theme";
 import shadow from "../styles/shadow";

@@ -2,6 +2,7 @@ import * as React from "react";
 import { Platform, StatusBar, StyleSheet, View, Button } from "react-native";
 import * as SplashScreen from "expo-splash-screen";
 import * as Font from "expo-font";
+import { registerRootComponent } from "expo";
 import { Ionicons } from "@expo/vector-icons";
 import { NavigationContainer, CommonActions } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -17,7 +18,7 @@ import theme from "./styles/theme";
 
 const Stack = createStackNavigator();
 
-export default function App(props) {
+function App(props) {
   const [isLoadingComplete, setLoadingComplete] = React.useState(false);
   const [initialNavigationState, setInitialNavigationState] = React.useState();
   const containerRef = React.useRef();
@@ -112,3 +113,5 @@ const styles = StyleSheet.create({
     flex: 1
   }
 });
+
+export default registerRootComponent(App);
