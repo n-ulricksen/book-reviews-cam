@@ -14,7 +14,7 @@ Devpost: https://devpost.com/software/book-review-cam
 
 ### How to run/develop locally
 
-You must have [Node](https://nodejs.org/) downloaded to run Expo.
+You must have [Node](https://nodejs.org/) installed to run Expo.
 
 Download [Expo](https://expo.dev/):
 ```sh
